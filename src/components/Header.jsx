@@ -5,6 +5,7 @@ export default function Header() {
         <a className="brand" href="#top">TalkBridge</a>
         <nav className="nav-links">
           <a href="#features">Features</a>
+          <a href="#tutorial">How It Works</a>
           <a href="#pricing">Pricing</a>
           <a className="btn btn-primary" href="https://app.talk-bridge.org">Open App</a>
         </nav>
