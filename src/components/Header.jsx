@@ -1,0 +1,14 @@
+export default function Header() {
+  return (
+    <header className="site-header">
+      <div className="container header-inner">
+        <a className="brand" href="#top">TalkBridge</a>
+        <nav className="nav-links">
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a className="btn btn-primary" href="https://app.talk-bridge.org">Open App</a>
+        </nav>
+      </div>
+    </header>
+  )
+}
