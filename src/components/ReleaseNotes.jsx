@@ -14,6 +14,26 @@ const NOTES = [
     title: 'Meeting scheduling',
     desc: 'Schedule a meeting ahead of time and share one link. Guests see a waiting screen until it starts; the host can begin early.',
   },
+  {
+    date: 'Good to know',
+    title: 'What to expect: call latency',
+    desc: "TalkBridge translates speech in real time, but there's a natural delay of a few seconds between when someone finishes speaking and the translation plays back. Pausing briefly after you speak gives the best result.",
+  },
+  {
+    date: 'Good to know',
+    title: 'Known: extra latency on some phone languages',
+    desc: 'Calls in Thai, Bengali, Urdu, and Hebrew currently take a bit longer to translate than other languages, since they route through a different voice provider. We\'re working on closing this gap.',
+  },
+  {
+    date: 'Good to know',
+    title: "Known: Listen playback depends on your browser",
+    desc: "Voice playback for translated text uses your browser's built-in voices. Arabic, Hindi, Swahili, Turkish, Vietnamese, Thai, Ukrainian, Indonesian, Persian, Bengali, Urdu, and Korean may have limited or no voice playback depending on your browser and device.",
+  },
+  {
+    date: 'Good to know',
+    title: "Known: Persian and Swahili phone calls aren't supported yet",
+    desc: "Phone calls in Persian and Swahili aren't available yet — none of our voice providers currently cover them. We're looking at ways to add coverage.",
+  },
 ]
 
 export default function ReleaseNotes() {
