@@ -25,7 +25,7 @@ export default function Pricing() {
     <section id="pricing" className="pricing">
       <div className="container">
         <h2>Pricing</h2>
-        <p className="pricing-note">TalkBridge is free to use during beta. Paid tiers below are launching soon.</p>
+        <p className="pricing-note">TalkBridge is in beta. Paid tiers below are launching soon.</p>
         <div className="pricing-grid">
           {TIERS.map((t) => (
             <div className={`pricing-card ${t.highlight ? 'pricing-highlight' : ''}`} key={t.name}>
@@ -37,7 +37,7 @@ export default function Pricing() {
                   <li key={f}>{f}</li>
                 ))}
               </ul>
-              <a className="btn btn-primary" href="https://app.talk-bridge.org">Get Started Free</a>
+              <a className="btn btn-primary" href="https://app.talk-bridge.org">Get Started</a>
             </div>
           ))}
         </div>
