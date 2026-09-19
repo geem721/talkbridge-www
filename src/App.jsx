@@ -3,6 +3,7 @@ import Hero from './components/Hero.jsx'
 import Features from './components/Features.jsx'
 import Tutorial from './components/Tutorial.jsx'
 import Pricing from './components/Pricing.jsx'
+import ReleaseNotes from './components/ReleaseNotes.jsx'
 import Footer from './components/Footer.jsx'
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         <Features />
         <Tutorial />
         <Pricing />
+        <ReleaseNotes />
       </main>
       <Footer />
     </>

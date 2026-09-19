@@ -7,6 +7,7 @@ export default function Header() {
           <a href="#features">Features</a>
           <a href="#tutorial">How It Works</a>
           <a href="#pricing">Pricing</a>
+          <a href="#whats-new">What's New</a>
           <a className="btn btn-primary" href="https://app.talk-bridge.org">Open App</a>
         </nav>
       </div>
