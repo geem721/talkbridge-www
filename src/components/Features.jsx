@@ -37,7 +37,7 @@ export default function Features() {
   return (
     <section id="features" className="features">
       <div className="container">
-        <h2>Everything you need to be understood</h2>
+        <h2>Every thing you need to bridge the communication gap.</h2>
         <div className="feature-grid">
           {FEATURES.map((f) => (
             <div className="feature-card" key={f.title}>

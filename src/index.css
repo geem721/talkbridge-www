@@ -102,7 +102,28 @@ a { color: inherit; text-decoration: none; }
 .pricing-card h3 { margin: 0 0 8px; }
 .pricing-price { font-size: 2rem; font-weight: 700; margin-bottom: 4px; }
 .pricing-price span { font-size: 1rem; color: var(--text-dim); font-weight: 400; }
-.pricing-credits { color: var(--text-dim); margin-bottom: 20px; }
+.pricing-yearly { color: var(--text-dim); font-size: 0.85rem; margin-bottom: 12px; }
+.pricing-yearly span { font-size: 0.85rem; }
+.pricing-translations { color: var(--text-dim); margin-bottom: 20px; }
+
+.topups { margin-top: 60px; padding-top: 60px; border-top: 1px solid var(--border); text-align: center; }
+.topups-title { font-size: 1.5rem; margin-bottom: 8px; }
+.topup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 32px;
+}
+.topup-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 22px;
+  text-align: center;
+}
+.topup-name { font-weight: 600; margin-bottom: 6px; }
+.topup-minutes { color: var(--accent); font-size: 1.3rem; font-weight: 700; margin-bottom: 4px; }
+.topup-price { color: var(--text-dim); margin-bottom: 16px; }
 .pricing-card ul { list-style: none; padding: 0; margin: 0 0 24px; flex: 1; }
 .pricing-card li { padding: 6px 0; color: var(--text-dim); font-size: 0.92rem; border-top: 1px solid var(--border); }
 .pricing-card li:first-child { border-top: none; }
