@@ -7,7 +7,7 @@ function getInitialTheme() {
   } catch (e) {
     // localStorage unavailable — fall back to default
   }
-  return 'dark'
+  return 'light'
 }
 
 export default function Header() {
