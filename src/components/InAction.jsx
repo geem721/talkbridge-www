@@ -2,12 +2,14 @@ import officerVideo from '../assets/videos/talkbridge-video-1-officer.mp4'
 import hospitalVideo from '../assets/videos/talkbridge-video-3-hospital-altcut.mp4'
 import homeOfficeVideo from '../assets/videos/talkbridge-video-4-homeoffice.mp4'
 import livingRoomVideo from '../assets/videos/talkbridge-video-5-livingroom.mp4'
+import officeVideo from '../assets/videos/talkbridge-video-6-beijing-clean.mp4'
 
 const CLIPS = [
   { title: 'On the job', src: officerVideo },
   { title: 'In the field', src: hospitalVideo },
   { title: 'At home', src: homeOfficeVideo },
   { title: 'With family', src: livingRoomVideo },
+  { title: 'In the office', src: officeVideo },
 ]
 
 export default function InAction() {
