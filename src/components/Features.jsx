@@ -9,7 +9,7 @@ import documentsImg from '../assets/screenshots/talkbridge-documents.webp'
 const FEATURES = [
   {
     title: 'Live Voice Translation',
-    desc: 'Speak naturally and get an accurate spoken or written translation back in real time, across 27+ languages.',
+    desc: 'Speak naturally and get an accurate spoken or written translation back in real time, across 27+ languages. Tap Listen to hear any translation read aloud.',
     img: translateImg,
   },
   {
@@ -24,7 +24,7 @@ const FEATURES = [
   },
   {
     title: 'Business Meetings',
-    desc: 'Multi-party, host-managed video meetings with live translation, screen share, and host controls — built for real work.',
+    desc: 'Multi-party, host-managed video meetings with live translated captions, screen share, polls, reactions, a shared whiteboard, and AI meeting notes — built for real work.',
     img: meetingsImg,
   },
   {
@@ -52,7 +52,7 @@ export default function Features() {
   return (
     <section id="features" className="features">
       <div className="container">
-        <h2>Every thing you need to bridge the communication gap.</h2>
+        <h2>Everything you need to bridge the communication gap.</h2>
         <div className="feature-grid">
           {FEATURES.map((f) => (
             <div className="feature-card" key={f.title}>

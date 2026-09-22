@@ -1,6 +1,26 @@
 const NOTES = [
   {
     date: 'September 2026',
+    title: 'Shared whiteboard with Kanban',
+    desc: 'Draw, write, and brainstorm together during a meeting. Add sticky notes, drag them across a To Do / In Progress / Done board — and every participant reads the notes in their own language, automatically.',
+  },
+  {
+    date: 'September 2026',
+    title: 'Live polls',
+    desc: 'Hosts can launch a quick poll mid-meeting. Everyone votes anonymously, results update live, and each participant sees the question in their own language. Final results are saved with your meeting notes.',
+  },
+  {
+    date: 'September 2026',
+    title: 'AI meeting notes',
+    desc: 'When the host ends a meeting, TalkBridge turns the multilingual conversation into a summary, key points, decisions, and action items — emailed to the host and saved under Past Meetings.',
+  },
+  {
+    date: 'September 2026',
+    title: 'Reactions',
+    desc: "Send a quick 👍 ❤️ 😂 👏 🎉 😮 during a meeting without interrupting whoever's speaking.",
+  },
+  {
+    date: 'September 2026',
     title: 'Smarter phone calls',
     desc: 'TalkBridge now detects voicemail and answering machines automatically, so a call ends cleanly instead of translating a recorded greeting.',
   },
@@ -23,11 +43,6 @@ const NOTES = [
     date: 'Good to know',
     title: 'Known: extra latency on some phone languages',
     desc: 'Calls in Thai, Bengali, Urdu, and Hebrew currently take a bit longer to translate than other languages, since they route through a different voice provider. We\'re working on closing this gap.',
-  },
-  {
-    date: 'Good to know',
-    title: "Known: Listen playback depends on your browser",
-    desc: "Voice playback for translated text uses your browser's built-in voices. Arabic, Hindi, Swahili, Turkish, Vietnamese, Thai, Ukrainian, Indonesian, Persian, Bengali, Urdu, and Korean may have limited or no voice playback depending on your browser and device.",
   },
   {
     date: 'Good to know',
