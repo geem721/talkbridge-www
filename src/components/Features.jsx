@@ -8,8 +8,8 @@ import documentsImg from '../assets/screenshots/talkbridge-documents.webp'
 
 const FEATURES = [
   {
-    title: 'Live Voice Translation',
-    desc: 'Speak naturally and get an accurate spoken or written translation back in real time, across 27+ languages. Tap Listen to hear any translation read aloud.',
+    title: 'Live Voice & Text Translation',
+    desc: 'Speak naturally or type what you want to say, and get an accurate translation back in real time across 27+ languages. Read it on screen, or tap Listen to hear it spoken aloud.',
     img: translateImg,
   },
   {

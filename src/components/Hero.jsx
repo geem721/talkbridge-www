@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="container hero-inner">
         <h1>Talk to anyone. In any language. In real time.</h1>
         <p className="hero-sub">
-          TalkBridge translates writing and speech live — group chats, video calls, phone calls, and video meetings, all with live captions. No awkward pauses, no lost meaning.
+          TalkBridge translates writing and speech live — group chats, video calls, phone calls, and video meetings with live captions, plus camera OCR and document translation. No awkward pauses, no lost meaning.
         </p>
         <div className="hero-cta">
           <a className="btn btn-primary btn-lg" href="https://app.talk-bridge.org">Try TalkBridge</a>
