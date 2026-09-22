@@ -3,7 +3,10 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="container footer-inner">
         <span>&copy; {new Date().getFullYear()} TalkBridge</span>
-        <a href="https://app.talk-bridge.org">Open App</a>
+        <span className="footer-links">
+          <a href="#contact">Contact</a>
+          <a href="https://app.talk-bridge.org">Open App</a>
+        </span>
       </div>
     </footer>
   )

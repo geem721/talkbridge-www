@@ -31,6 +31,7 @@ export default function Header() {
           <a href="#tutorial">How It Works</a>
           <a href="#pricing">Pricing</a>
           <a href="#whats-new">What's New</a>
+          <a href="#about">About</a>
           <button
             type="button"
             className="theme-toggle"

@@ -5,6 +5,7 @@ import InAction from './components/InAction.jsx'
 import Tutorial from './components/Tutorial.jsx'
 import Pricing from './components/Pricing.jsx'
 import ReleaseNotes from './components/ReleaseNotes.jsx'
+import About from './components/About.jsx'
 import Footer from './components/Footer.jsx'
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Tutorial />
         <Pricing />
         <ReleaseNotes />
+        <About />
       </main>
       <Footer />
     </>
