@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import translateImg from '../assets/screenshots/talkbridge-translate.webp'
 import phoneImg from '../assets/screenshots/talkbridge-phone.webp'
 import videoCallImg from '../assets/screenshots/talkbridge-video-call.webp'
@@ -49,6 +50,13 @@ const FEATURES = [
 ]
 
 export default function Features() {
+  const [zoom, setZoom] = useState(null)
+  useEffect(() => {
+    if (!zoom) return
+    const onKey = (e) => { if (e.key === 'Escape') setZoom(null) }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [zoom])
   return (
     <section id="features" className="features">
       <div className="container">
@@ -58,7 +66,7 @@ export default function Features() {
             <div className="feature-card" key={f.title}>
               {f.img && (
                 <div className="feature-card-img">
-                  <img src={f.img} alt={`${f.title} in TalkBridge`} loading="lazy" />
+                  <img onClick={() => setZoom(f)} style={{ cursor: 'zoom-in' }} title="Click to enlarge" src={f.img} alt={`${f.title} in TalkBridge`} loading="lazy" />
                 </div>
               )}
               <h3>{f.title}</h3>
@@ -67,6 +75,14 @@ export default function Features() {
           ))}
         </div>
       </div>
+      {zoom && (
+        <div
+          onClick={() => setZoom(null)}
+          style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.85)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000, padding: 16, cursor: 'zoom-out' }}
+        >
+          <img src={zoom.img} alt={zoom.title} style={{ maxWidth: '95vw', maxHeight: '90vh', borderRadius: 10, boxShadow: '0 10px 40px rgba(0,0,0,0.5)', background: '#fff' }} />
+        </div>
+      )}
     </section>
   )
 }
